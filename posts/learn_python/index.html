@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Python Notes | Code &amp; Learn</title>
 <meta name="keywords" content="">
 <meta name="description" content="Generators
@@ -36,16 +36,16 @@ print(t1 - t0)
 let&rsquo;s make that better by putting all into a function
 you might know that a function name in python is just a referance to it so we can pass that as an argument">
 <meta name="author" content="Yahya MHF">
-<link rel="canonical" href="http://localhost:1313/posts/learn_python/">
+<link rel="canonical" href="https://yahya-mhf.github.io/posts/learn_python/">
 <link crossorigin="anonymous" href="../../assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://yahya-mhf.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://yahya-mhf.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yahya-mhf.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://yahya-mhf.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://yahya-mhf.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/learn_python/">
+<link rel="alternate" hreflang="en" href="https://yahya-mhf.github.io/posts/learn_python/">
 <noscript>
     <style>
         #theme-toggle,
@@ -97,13 +97,111 @@ you might know that a function name in python is just a referance to it so we ca
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://yahya-mhf.github.io/posts/learn_python/">
+  <meta property="og:site_name" content="Code & Learn">
+  <meta property="og:title" content="Python Notes">
+  <meta property="og:description" content="Generators let’s consider the function below:
+import time def count(): time.sleep(1) and you want to change the behavior of it so it’s runs and write the time of the execution of it.
+that could be done in several ways
+way 1: import time def count(): time.sleep(3) t0 = time.time() count() t1 = time.time() print(t1 - t0) 3.0073814392089844
+let’s make that better by putting all into a function
+you might know that a function name in python is just a referance to it so we can pass that as an argument">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-02T23:11:02+00:00">
+    <meta property="article:modified_time" content="2026-03-02T23:11:02+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python Notes">
+<meta name="twitter:description" content="Generators
+
+let&rsquo;s consider the function below:
+
+import time
+
+def count():
+    time.sleep(1)
+
+and you want to change the behavior of it so it&rsquo;s runs and write the time of the execution of it.
+
+
+that could be done in several ways
+
+way 1:
+import time
+
+def count():
+    time.sleep(3)
+
+t0 = time.time()
+count()
+t1 = time.time()
+print(t1 - t0)
+3.0073814392089844
+
+let&rsquo;s make that better by putting all into a function
+you might know that a function name in python is just a referance to it so we can pass that as an argument">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://yahya-mhf.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Python Notes",
+      "item": "https://yahya-mhf.github.io/posts/learn_python/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Python Notes",
+  "name": "Python Notes",
+  "description": "Generators let\u0026rsquo;s consider the function below:\nimport time def count(): time.sleep(1) and you want to change the behavior of it so it\u0026rsquo;s runs and write the time of the execution of it.\nthat could be done in several ways\nway 1: import time def count(): time.sleep(3) t0 = time.time() count() t1 = time.time() print(t1 - t0) 3.0073814392089844\nlet\u0026rsquo;s make that better by putting all into a function\nyou might know that a function name in python is just a referance to it so we can pass that as an argument\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Generators let’s consider the function below:\nimport time def count(): time.sleep(1) and you want to change the behavior of it so it’s runs and write the time of the execution of it.\nthat could be done in several ways\nway 1: import time def count(): time.sleep(3) t0 = time.time() count() t1 = time.time() print(t1 - t0) 3.0073814392089844\nlet’s make that better by putting all into a function\nyou might know that a function name in python is just a referance to it so we can pass that as an argument\nimport time def count(): time.sleep(3) def count_ex_time(fct): t0 = time.time() fct() t1 = time.time() return t1 - t0 print(count_ex_time(count)) but now instead of calling the function count_ex_time to count time of execution and running it why not change the behaviour of the function count itself so it will run as before and also calculate the time of execution, we can achieve that by assigning the new function that we build to the count function, think of it like we change the name of the second function to the first function name, and loosing referance to the first one as we are no longer need it.\nimport time def count(): time.sleep(3) def count_ex_time(fct): t0 = time.time() fct() t1 = time.time() return t1 - t0 count = count_ex_time() # change the name of the new function print(count()) ",
+  "wordCount" : "225",
+  "inLanguage": "en",
+  "datePublished": "2026-03-02T23:11:02Z",
+  "dateModified": "2026-03-02T23:11:02Z",
+  "author":{
+    "@type": "Person",
+    "name": "Yahya MHF"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yahya-mhf.github.io/posts/learn_python/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Code \u0026 Learn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yahya-mhf.github.io/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Code &amp; Learn (Alt + H)">Code &amp; Learn</a>
+            <a href="https://yahya-mhf.github.io/" accesskey="h" title="Code &amp; Learn (Alt + H)">Code &amp; Learn</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -213,7 +311,7 @@ you might know that a function name in python is just a referance to it so we ca
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Code &amp; Learn</a></span> · 
+        <span>&copy; 2026 <a href="https://yahya-mhf.github.io/">Code &amp; Learn</a></span> · 
 
     <span>
         Powered by

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on My Personal Blog</title>
-    <link>https://yahyamhf.github.io/posts/</link>
+    <link>http://localhost:1313/yahyamhf/posts/</link>
     <description>Recent content in Posts on My Personal Blog</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2026 21:52:52 +0000</lastBuildDate>
-    <atom:link href="https://yahyamhf.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/yahyamhf/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Helloblog</title>
-      <link>https://yahyamhf.github.io/posts/helloblog/</link>
+      <link>http://localhost:1313/yahyamhf/posts/helloblog/</link>
       <pubDate>Mon, 02 Mar 2026 21:52:52 +0000</pubDate>
-      <guid>https://yahyamhf.github.io/posts/helloblog/</guid>
+      <guid>http://localhost:1313/yahyamhf/posts/helloblog/</guid>
       <description>&lt;h1 id=&#34;hello-blog&#34;&gt;Hello Blog&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greeting&lt;/span&gt;(name):
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;name&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;

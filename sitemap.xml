@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yahyamhf.github.io/posts/helloblog/</loc>
+    <loc>http://localhost:1313/yahyamhf/posts/helloblog/</loc>
     <lastmod>2026-03-02T21:52:52+00:00</lastmod>
   </url><url>
-    <loc>https://yahyamhf.github.io/</loc>
+    <loc>http://localhost:1313/yahyamhf/</loc>
     <lastmod>2026-03-02T21:52:52+00:00</lastmod>
   </url><url>
-    <loc>https://yahyamhf.github.io/posts/</loc>
+    <loc>http://localhost:1313/yahyamhf/posts/</loc>
     <lastmod>2026-03-02T21:52:52+00:00</lastmod>
   </url><url>
-    <loc>https://yahyamhf.github.io/categories/</loc>
+    <loc>http://localhost:1313/yahyamhf/categories/</loc>
   </url><url>
-    <loc>https://yahyamhf.github.io/tags/</loc>
+    <loc>http://localhost:1313/yahyamhf/tags/</loc>
   </url>
 </urlset>
